@@ -30,28 +30,23 @@ body {
     z-index: -1; 
 }
 
-/* Visual FX */
+/* Typography & Neon */
 .neon-text { text-shadow: 0 0 10px rgba(0, 112, 255, 0.8); }
 
 .glass-card { 
     background: rgba(255, 255, 255, 0.02); 
     backdrop-filter: blur(15px); 
     border: 1px solid rgba(255, 255, 255, 0.05); 
-    transition: 0.5s; 
+    transition: 0.5s cubic-bezier(0.23, 1, 0.32, 1); 
 }
 
-.glass-card:hover:not(.unavailable) { 
+.glass-card:hover { 
     border-color: var(--blue); 
-    transform: translateY(-5px); 
+    transform: translateY(-8px); 
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4); 
 }
 
-.unavailable { 
-    opacity: 0.5; 
-    cursor: not-allowed; 
-    filter: grayscale(100%); 
-}
-
+/* Buttons */
 .btn-main { 
     background: var(--blue); 
     box-shadow: 0 0 15px rgba(0, 112, 255, 0.3); 
@@ -63,12 +58,31 @@ body {
     transform: scale(1.05); 
 }
 
+/* Badges & Lists */
 .badge { 
     font-size: 10px; 
     padding: 2px 8px; 
     border-radius: 4px; 
     text-transform: uppercase; 
     font-weight: bold; 
+}
+
+.active-badge { 
+    background: rgba(34, 197, 94, 0.2); 
+    color: rgb(74, 222, 128); 
+}
+
+.service-list { 
+    color: #6b7280; 
+    font-size: 0.875rem; 
+    line-height: 1.25rem; 
+}
+
+.service-list li { margin-bottom: 0.25rem; }
+
+.soon-item { 
+    color: #374151; 
+    font-style: italic; 
 }
 
 /* Animations */
