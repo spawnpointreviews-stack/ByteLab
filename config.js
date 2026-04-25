@@ -6,7 +6,7 @@
 const ByteLabConfig = {
     // --- GLOBAL SETTINGS ---
     formLink: "https://docs.google.com/forms/d/e/1FAIpQLScBeJDDbKZSMNAfLUS1O2w4-ab-2PL9eP0MhZyIdF50zRyDhg/viewform?usp=dialog",
-    donationLink: "https://your-donation-link-here.com", // PayPal, CashApp, etc.
+    donationLink: "https://square.link/u/qLlTrWKn", // PayPal, CashApp, etc.
     email: "spawnpointreviews@gmail.com",
 
     // --- SERVICE DATA ---
